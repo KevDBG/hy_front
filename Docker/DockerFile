@@ -1,0 +1,2 @@
+FROM richarvey/nginx-php-fpm:latest AS hohey_frontend
+COPY index.php /var/www/html/
